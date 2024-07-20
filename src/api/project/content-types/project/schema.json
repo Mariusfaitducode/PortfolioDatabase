@@ -46,9 +46,18 @@
       ]
     },
     "images": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::image.image"
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bigProject": {
+      "type": "boolean"
     }
   }
 }
