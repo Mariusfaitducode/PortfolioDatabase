@@ -58,6 +58,18 @@
     },
     "bigProject": {
       "type": "boolean"
+    },
+    "smallDescriptionEn": {
+      "type": "text"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "rank": {
+      "type": "integer"
     }
   }
 }
